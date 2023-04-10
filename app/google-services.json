@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842900429810",
+    "firebase_url": "https://thunder-618da.firebaseio.com",
+    "project_id": "thunder-618da",
+    "storage_bucket": "thunder-618da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842900429810:android:087943cfb1567f30aa696b",
+        "android_client_info": {
+          "package_name": "com.mostafahassan.thunder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842900429810-4fvig0kfh9g7rrlvegiqv4c2r6u9obl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgtB0fD4E2mZb8TQpXx4qEQ-TXXvFeRo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842900429810-4fvig0kfh9g7rrlvegiqv4c2r6u9obl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

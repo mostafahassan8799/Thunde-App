@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/back_thunder_blur"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:gravity="center"
+            android:text="Registration"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Go where the sound of thunder is."
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/register_et_email"
+            android:layout_marginTop="24dp"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/inputs_background"
+            android:inputType="textEmailAddress"
+            android:hint="  email"
+            android:padding="10dp"
+
+            />
+        <EditText
+            android:id="@+id/register_et_password"
+            android:layout_marginTop="24dp"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/inputs_background"
+            android:inputType="textPassword"
+            android:hint="  password"
+            android:padding="10dp"
+
+            />
+        <EditText
+            android:id="@+id/register_et_confirmPassword"
+            android:layout_marginTop="24dp"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:background="@drawable/inputs_background"
+            android:inputType="textPassword"
+            android:hint="  Confirm password"
+            android:padding="10dp"
+            android:layout_marginBottom="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/register_button_register"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_gmail"
+            android:elevation="0dp"
+            android:fontFamily="@font/varela_round"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <ProgressBar
+            android:id="@+id/register_progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
